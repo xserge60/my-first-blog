@@ -1,0 +1,32 @@
+Xsession: X session started for pi at Ср ноя 30 10:36:21 IST 2016
+localuser:pi being added to access control list
+/usr/bin/startxfce4: X server already running on display :0
+xfce4-session-Message: ssh-agent is already running; starting gpg-agent without ssh support
+
+(xfsettingsd:1428): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1391): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+xfwm4: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+xfdesktop: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.

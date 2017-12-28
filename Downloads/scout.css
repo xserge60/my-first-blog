@@ -1,0 +1,63 @@
+#playlist {
+    /*padding: 0px;*/
+    /*width: 400px;*/
+    /*height: 70%;*/
+    /*float: right;*/
+    overflow-y: auto;
+}
+
+#console {
+    /*padding: 0px;*/
+    width: 944px;
+    height: 120px;
+    /*float: right;*/
+    overflow-y: auto;
+    border: 2px solid #ccc;
+}
+
+#camera-wrapper {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 0px;
+}
+
+#say {
+    width: 300px;
+    height: 20px;
+    padding: 0px;
+}
+
+#playlist {
+    width: 300px;
+    height: 160px;
+    border: 2px solid #ccc;
+    padding: 0px;
+}
+
+#camera_position {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background: #b3b3b3;
+}
+
+#video {
+    width: 640px;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+}
+
+#move {
+    width: 300px;
+    height: 80px;
+    border: 2px solid #ccc;
+    padding: 0px;
+}
+
+.command_button {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,43 @@
+{
+    "param": {
+        "name": {
+            "value": "MotorTest",
+            "description": "название сервиса по умолчанию"
+        },
+        "parent": {
+            "value": "Buject",
+            "description": "название базового модуля, с которого наследуются другие параметры"
+        },
+        "buject": {
+            "value": "MotorTest",
+            "description": "название модуля"
+        },
+        "GPIO_forward": {
+            "value": 0,
+            "description": "канал GPIO для движения вперед",
+            "type": "int"
+        },
+        "GPIO_backward": {
+            "value": 0,
+            "description": "канал GPIO для движения назад",
+            "type": "int"
+        },
+        "GPIO_mode": {
+            "value": 11,
+            "description": "value for GPIO.setmode GPIO.BOARD=10 GPIO.BCM=11",
+            "type": "int"
+        }
+    },
+    "incoming_request": {
+        "set_power": {
+            "name": "set_power",
+            "description": "установка мощности мотора",
+            "param": {
+                "value": {
+                    "description": "мощность мотора в процентах",
+                    "type": "int"
+                }
+            }
+        }
+    }
+}

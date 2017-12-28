@@ -1,0 +1,52 @@
+{
+    "param": {
+        "name": {
+            "value": "PCA9685Motor",
+            "description": ""
+        },
+        "parent": {
+            "value": "Motor"
+        },
+        "buject": {
+            "value": "PCA9685Motor"
+        },
+        "PCA9685_channel": {
+            "value": 0,
+            "type": "int"
+        },
+        "gpio_forward": {
+            "value": 0,
+            "type": "int"
+        },
+        "gpio_backward": {
+            "value": 0,
+            "type": "int"
+        },
+        "max_pwm_us": {
+            "value": 0,
+            "type": "int"
+        },
+        "min_pwm_us": {
+            "value": 0,
+            "type": "int"
+        }
+    },
+    "depend_buject": {
+        "PCA9685": {},
+        "BujectGPIO": {}
+    },
+    "outgoing_request": {
+        "set_pwm_us": {
+            "name": "set_pwm_us",
+            "buject": "PCA9685",
+            "description": "транзакции на i2c",
+            "response": 0
+            },
+        "set_gpio": {
+            "name": "set_gpio",
+            "buject": "BujectGPIO",
+            "description": "",
+            "response": 0
+            }
+    }
+}

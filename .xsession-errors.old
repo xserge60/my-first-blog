@@ -1,0 +1,48 @@
+Xsession: X session started for pi at Вт ноя 29 20:30:58 IST 2016
+localuser:pi being added to access control list
+/usr/bin/startxfce4: X server already running on display :0
+xfce4-session-Message: ssh-agent is already running; starting gpg-agent without ssh support
+
+(xfsettingsd:1440): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:1412): GLib-GIO-CRITICAL **: g_file_get_path: assertion 'G_IS_FILE (file)' failed
+xfce4-session: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+(xfsettingsd:1440): libxfce4ui-WARNING **: ICE I/O Error
+
+(xfsettingsd:1440): libxfce4ui-WARNING **: Disconnected from session manager.
+
+(xfdesktop:1412): libxfce4ui-WARNING **: ICE I/O Error
+
+(xfdesktop:1412): libxfce4ui-WARNING **: Disconnected from session manager.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+xfwm4: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+xfce4-panel: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+xfsettingsd: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+xfdesktop: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+wrapper: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+wrapper: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+E: [pulseaudio] main.c: Не удалось завершить работу демона: Нет такого файла или каталога

@@ -1,0 +1,70 @@
+{
+    "param": {
+        "name": {
+            "value": "buject",
+            "description": "Базовый сервис",
+            "type": ""
+        },
+        "parent": {
+            "value": "",
+            "description": "родительский buject",
+            "type": "",
+            "readonly": 1
+        },
+        "buject": {
+            "value": "buject",
+            "readonly": 1
+        },
+        "debug": {
+            "value": 0,
+            "description": "Уровень отладочных сообщений",
+            "type": "int"
+        },
+        "max_fps": {
+            "value": 3,
+            "description": "пауза в основном цикле, ограничение fps",
+            "type": "int"
+        }
+    },
+    "status": {
+        "fps": {
+            "value": 0,
+            "description": "",
+            "type": "int"
+        },
+        "last_time": {
+            "value": 0,
+            "description": "Время последнего рабочего цикла",
+            "type": "unixtime"
+        },
+        "buject": {
+            "value": "",
+            "description": "текущее состояние сервиса error/ready/started/stopped/waiting",
+            "type": "str"
+        },
+        "action": {
+            "value": "",
+            "description": "текущее действие сервиса",
+            "type": "str"
+        }
+    },
+    "depend_buject": {
+    },
+    "incoming_request": {
+    },
+    "outgoing_request": {
+        "console": {
+            "name": "console",
+            "description": "направляем отладочные сообщения и ошибоки на консоль",
+            "response": 0
+            }
+    },
+    "outgoing_event": {
+    },
+    "incoming_event": {
+        "system": {
+            "name": "system"
+        }
+
+    }
+}

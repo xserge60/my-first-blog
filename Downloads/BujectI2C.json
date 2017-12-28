@@ -1,0 +1,30 @@
+{
+    "param": {
+        "name": {
+            "value": "i2c",
+            "description": "i2c"
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "BujectI2C",
+            "description": "i2c"
+        },
+        "interface": {
+            "value": 1,
+            "description": "i2c interface",
+            "type": "int"
+        },
+        "extra_open_flag": {
+            "value": 0,
+            "description": "",
+            "type": "int"
+        }
+    },
+    "incoming_request": {
+        "transaction": {
+            "description": "array[tuple(write/read/wait, address, register, bytes)]"
+        }
+    }
+}

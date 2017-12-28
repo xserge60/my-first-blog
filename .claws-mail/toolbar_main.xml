@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<toolbar>
+	<item file="mail_receive_all" text="Получить все" action="A_RECEIVE_ALL"/>
+	<separator/>
+	<item file="mail_send_queue" text="Отправить" action="A_SEND_QUEUED"/>
+	<item file="mail_compose" text="Составление" action="A_COMPOSE_EMAIL"/>
+	<separator/>
+	<item file="mail_reply" text="Ответить" action="A_REPLY_MESSAGE"/>
+	<item file="mail_reply_to_all" text="Всем" action="A_REPLY_ALL"/>
+	<item file="mail_reply_to_author" text="Отправитель" action="A_REPLY_SENDER"/>
+	<item file="mail_forward" text="Переслать" action="A_FORWARD"/>
+	<separator/>
+	<item file="trash_btn" text="Корзина" action="A_TRASH"/>
+	<item file="spam_btn" text="Спам" action="A_LEARN_SPAM"/>
+	<separator/>
+	<item file="down_arrow" text="Следующий" action="A_GOTO_NEXT"/>
+</toolbar>

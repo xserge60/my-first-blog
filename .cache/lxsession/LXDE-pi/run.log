@@ -1,0 +1,168 @@
+** Message: environement.vala:58: Exporting primary_variable
+** Message: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:149: confir_dirs is null, export : /etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:527: Файл ключей не содержит ключ «iGtk/ColorScheme»
+** Message: settings.vala:527: Файл ключей не содержит ключ «windows_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «panel/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «dock/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «file_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «desktop_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «launcher_manager/autostart»
+** Message: settings.vala:527: Файл ключей не содержит ключ «composite_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «im1/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «im2/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «widget1/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «notification/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «keybindings/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «screensaver/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «power_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «audio_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «workspace_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «screenshot_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «message_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «upgrade_manager/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «upstart_user_session»
+** Message: settings.vala:527: Файл ключей не содержит ключ «proxy_manager/http»
+** Message: settings.vala:527: Файл ключей не содержит ключ «a11y/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «xrandr/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «network_gui/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «webbrowser/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «email/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «pdf_reader/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «video_player/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «audio_player/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «images_display/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «text_editor/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «archive/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «charmap/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «calculator/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «spreadsheet/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «bittorent/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «document/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «webcam/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «burn/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «notes/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «disk_utility/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «tasks/command»
+** Message: settings.vala:527: Файл ключей не содержит ключ «model»
+** Message: settings.vala:527: Файл ключей не содержит ключ «laptop_mode»
+** Message: settings.vala:527: Файл ключей не содержит ключ «gnome»
+** Message: settings.vala:527: Файл ключей не содержит группу «Updates»
+** Message: settings.vala:527: Файл ключей не содержит ключ «type»
+** Message: settings.vala:449: Monitoring: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:453: Desktop file is already in config home, do nothing
+** Message: environement.vala:79: Exporting variable
+** Message: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:176: custom_config :
+** Message: environement.vala:177: config_dirs :/etc/xdg
+** Message: environement.vala:178: confir_dirs not null, export : /etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: options.vala:164: Activate xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: app.vala:717: polkit separate
+** Message: app.vala:717: polkit separate
+** Message: app.vala:76: Launching lxpolkit 
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: autostart.vala:42: Autostart path : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: app.vala:76: Launching lxpanel 
+** Message: app.vala:76: Launching pcmanfm 
+
+** (lxsession:1899): WARNING **: app.vala:86: Не удалось выполнить процесс-потомок «xscreensaver» (Нет такого файла или каталога)
+
+** (lxsession:1899): WARNING **: app.vala:87: Error when launching xscreensaver
+** Message: app.vala:76: Launching point-rpi 
+Obt-Message: Xinerama extension is not present on the server
+** Message: options.vala:107: Create build-in Clipboard
+lxkeymap found
+** Message: main.vala:429: Check keymap_mode user
+** Message: main.vala:432: Create Option Keymap
+** Message: options.vala:80: Show keymap variant : 
+** Message: options.vala:87: Show keymap options : grp:shift_caps_toggle
+** Message: options.vala:93: Keymap options - return user command setxkbmap -layout us -variant  -options grp:shift_caps_toggle 
+** Message: options.vala:44: Options - Launch command setxkbmap -layout us -variant  -options grp:shift_caps_toggle 
+Error!   Option "-options" not recognized
+** Message: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-CjREWcAWuqZc/agent.1994; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1996; export SSH_AGENT_PID;
+echo Agent pid 1996;
+** Message: app.vala:130: point-rpi exit with this type of exit: 0
+** Message: app.vala:139: Exit normal, don't reload
+** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+Openbox-Message: Невозможно найти соответствующий файл меню "/usr/share/lxde/openbox/menu.xml"
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called fill
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called position
+  builder.add_from_file(ui_filename)
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+Sections: ['Global']
+Layouts: ['us', 'ru', 'ua']
+Variants: ['', '', 'winkeys']
+Options: ['grp:ctrl_shift_toggle', 'led:scroll']
+['Global']
+Lxkeymap autostart running...
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "e" на экране не существует
+Openbox-Message: Запрошенного ключа "T" на экране не существует
+Openbox-Message: Запрошенного ключа "r" на экране не существует
+** Message: Connecting ...
+** Message: Status changed to down
+** Message: Status changed to opened
+** Message: Connected to dhcpcd-6.7.1
+** Message: Status changed to connected
+** Message: eth0: CARRIER
+** Message: eth0: Configured 192.168.1.200/24
+** Message: wlan0: Not associated
+** Message: wlan0: WPA status connected
+** Message: wlan0: Received scan results
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "e" на экране не существует
+Openbox-Message: Запрошенного ключа "T" на экране не существует
+Openbox-Message: Запрошенного ключа "r" на экране не существует
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "e" на экране не существует
+Openbox-Message: Запрошенного ключа "T" на экране не существует
+Openbox-Message: Запрошенного ключа "r" на экране не существует
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "d" на экране не существует
+Openbox-Message: Запрошенного ключа "e" на экране не существует
+Openbox-Message: Запрошенного ключа "T" на экране не существует
+Openbox-Message: Запрошенного ключа "r" на экране не существует
+** Message: bt: Name org.bluez owned on DBus
+** Message: bt: New agent manager found
+** Message: bt: New adapter found
+** Message: va: Name org.bluez owned on DBus
+** Message: va: Stopping PulseAudio
+lxpolkit: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+XIO:  fatal IO error 104 (Соединение разорвано другой стороной) on X server ":0"
+      after 43483 requests (43306 known processed) with 0 events remaining.
+lxde-pi-shutdown-helper: Fatal IO error 104 (Соединение разорвано другой стороной) on X server :0.
+lxpanel: Fatal IO error 0 (Выполнено) on X server :0.
+E: [pulseaudio] main.c: Не удалось завершить работу демона: Нет такого процесса
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+pcmanfm: Fatal IO error 0 (Выполнено) on X server :0.

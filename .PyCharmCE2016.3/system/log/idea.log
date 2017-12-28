@@ -1,0 +1,153 @@
+2016-11-24 12:45:37,708 [      1]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-11-24 12:45:37,744 [     37]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-163.8233.8, 22 Nov 2016 15:29) 
+2016-11-24 12:45:37,745 [     38]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.21-v7+, arm) 
+2016-11-24 12:45:37,745 [     38]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_65-b17 (Oracle Corporation) 
+2016-11-24 12:45:37,745 [     38]   INFO -        #com.intellij.idea.Main - JVM: 25.65-b01 (Java HotSpot(TM) Server VM) 
+2016-11-24 12:45:37,772 [     65]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -Xms128m -Xmx512m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/pi/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/pi/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2016.3 -Djb.vmOptionsFile=./pycharm.vmoptions -Didea.platform.prefix=PyCharmCore 
+2016-11-24 12:45:37,774 [     67]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/ext: [cldrdata.jar, sunjce_provider.jar, sunpkcs11.jar, localedata.jar, dnsns.jar, sunec.jar, jaccess.jar, zipfs.jar, nashorn.jar, meta-index] 
+2016-11-24 12:45:37,774 [     67]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2016-11-24 12:45:37,899 [    192]   INFO -        #com.intellij.idea.Main - JNA library (32-bit) loaded in 124 ms 
+2016-11-24 12:45:54,046 [  16339]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2016-11-24 12:45:54,048 [  16341]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-11-24 12:46:00,693 [  22986]   INFO - llij.ide.plugins.PluginManager - 16 plugins initialized in 5366 ms 
+2016-11-24 12:46:00,701 [  22994]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (163.8233.8), Git Integration (8.1), GitHub (163.8233.8), IDEA CORE (163.8233.8), IPython Notebook (0.1), IntelliLang (8.0), Python IntelliLang (VERSION), Python ReStructureText Integration (1.0), Python Terminal (VERSION), ReStructuredText Support (136.SNAPSHOT), Settings Repository (163.8233.8), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-11-24 12:46:03,790 [  26083]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/pi/.PyCharmCE2016.3/system/caches/names.dat' does not exist 
+2016-11-24 12:46:03,798 [  26091]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=485 
+2016-11-24 12:46:04,006 [  26299]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /tmp/pycharm/pycharm-community-2016.3/bin/fsnotifier-arm 
+2016-11-24 12:46:04,060 [  26353]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-11-24 12:46:06,303 [  28596]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2016-11-24 12:46:06,304 [  28597]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2016-11-24 12:46:09,480 [  31773]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-11-24 12:46:09,887 [  32180]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2016-11-24 12:46:10,791 [  33084]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:452 
+2016-11-24 12:46:10,813 [  33106]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:21 
+2016-11-24 12:46:11,015 [  33308]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:156 
+2016-11-24 12:46:11,028 [  33321]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:13 
+2016-11-24 12:46:11,422 [  33715]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2016-11-24 12:46:12,490 [  34783]   INFO - plication.impl.ApplicationImpl - 75 application components initialized in 17185ms 
+2016-11-24 12:46:12,731 [  35024]   INFO - .intellij.idea.IdeaApplication - App initialization took 58268 ms 
+2016-11-24 12:46:13,811 [  36104]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:XML,PythonStub,HTML,Python 
+2016-11-24 12:46:14,646 [  36939]   INFO - pl$FileIndexDataInitialization - Initialization done:3833 
+2016-11-24 12:46:14,885 [  37178]   INFO - exImpl$StubIndexInitialization - Initialization done:238 
+2016-11-24 12:46:22,976 [  45269]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 1216 ms 
+2016-11-24 12:46:22,978 [  45271]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-11-24 12:46:23,344 [  45637]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@fb94f2 
+2016-11-24 12:46:25,499 [  47792]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@7b50b1 
+2016-11-24 12:46:26,373 [  48666]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@7ba468 
+2016-11-24 12:49:27,314 [ 229607]   WARN - on.sdk.flavors.PythonSdkFlavor - Couldn't get interpreter version: process exited with code 2
+usage: pypyclean [-h] [-p PACKAGE] [-v] [-q] [directory [directory ...]]
+pypyclean: error: unrecognized arguments: --version
+ 
+2016-11-24 12:49:27,588 [ 229881]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 242 ms 
+2016-11-24 12:49:27,626 [ 229919]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean)): /home/pi/.PyCharmCE2016.3/system/python_stubs/-27415771 
+2016-11-24 12:49:27,639 [ 229932]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean)): /tmp/pycharm/pycharm-community-2016.3/helpers/python-skeletons 
+2016-11-24 12:49:27,882 [ 230175]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 200 ms 
+2016-11-24 12:49:27,884 [ 230177]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean)): /home/pi/.PyCharmCE2016.3/system/python_stubs/-27415771 
+2016-11-24 12:49:27,884 [ 230177]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean)): /tmp/pycharm/pycharm-community-2016.3/helpers/python-skeletons 
+2016-11-24 12:49:30,667 [ 232960]   INFO - ellij.project.impl.ProjectImpl - 91 project components initialized in 2664 ms 
+2016-11-24 12:49:30,676 [ 232969]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-11-24 12:49:31,194 [ 233487]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy 
+2016-11-24 12:49:31,194 [ 233487]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy in original object too 
+2016-11-24 12:49:38,257 [ 240550]   WARN - on.sdk.flavors.PythonSdkFlavor - Couldn't get interpreter version: process exited with code 2
+usage: pypyclean [-h] [-p PACKAGE] [-v] [-q] [directory [directory ...]]
+pypyclean: error: unrecognized arguments: --version
+ 
+2016-11-24 12:49:45,779 [ 248072]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2016-11-24 12:49:45,805 [ 248098]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2016-11-24 12:49:45,837 [ 248130]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean) 
+2016-11-24 12:49:45,856 [ 248149]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/pypyclean 
+2016-11-24 12:49:46,222 [ 248515]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 316 ms 
+2016-11-24 12:49:46,230 [ 248523]  ERROR - ns.python.sdk.PythonSdkUpdater - failed to run generator3.py for /usr/bin/pypyclean, exit code 2, stderr: 
+-----
+usage: pypyclean [-h] [-p PACKAGE] [-v] [-q] [directory [directory ...]]
+pypyclean: error: unrecognized arguments: -L
+----- 
+com.jetbrains.python.sdk.InvalidSdkException: failed to run generator3.py for /usr/bin/pypyclean, exit code 2, stderr: 
+-----
+usage: pypyclean [-h] [-p PACKAGE] [-v] [-q] [directory [directory ...]]
+pypyclean: error: unrecognized arguments: -L
+-----
+	at com.jetbrains.python.sdk.skeletons.PySkeletonGenerator.listBinaries(PySkeletonGenerator.java:234)
+	at com.jetbrains.python.sdk.skeletons.PySkeletonRefresher.regenerateSkeletons(PySkeletonRefresher.java:295)
+	at com.jetbrains.python.sdk.skeletons.PySkeletonRefresher.refreshSkeletonsOfSdk(PySkeletonRefresher.java:129)
+	at com.jetbrains.python.sdk.PythonSdkUpdater$2.run(PythonSdkUpdater.java:155)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:710)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:568)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:519)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:128)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:309)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-24 12:49:46,255 [ 248548]  ERROR - ns.python.sdk.PythonSdkUpdater - PyCharm Community Edition 2016.3  Build #PC-163.8233.8 
+2016-11-24 12:49:46,256 [ 248549]  ERROR - ns.python.sdk.PythonSdkUpdater - JDK: 1.8.0_65 
+2016-11-24 12:49:46,256 [ 248549]  ERROR - ns.python.sdk.PythonSdkUpdater - VM: Java HotSpot(TM) Server VM 
+2016-11-24 12:49:46,256 [ 248549]  ERROR - ns.python.sdk.PythonSdkUpdater - Vendor: Oracle Corporation 
+2016-11-24 12:49:46,257 [ 248550]  ERROR - ns.python.sdk.PythonSdkUpdater - OS: Linux 
+2016-11-24 12:49:46,257 [ 248550]  ERROR - ns.python.sdk.PythonSdkUpdater - Last Action: EditorBackSpace 
+2016-11-24 12:49:46,293 [ 248586]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/pypyclean /tmp/pycharm/pycharm-community-2016.3/helpers/packaging_tool.py list 
+2016-11-24 12:49:46,359 [ 248652]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 130ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-11-24 12:49:46,752 [ 249045]   WARN - python.packaging.PyPackageUtil - Invalid output format 
+2016-11-24 12:49:47,800 [ 250093]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1430ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-11-24 12:49:47,802 [ 250095]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 268 files to update 
+2016-11-24 12:49:48,116 [ 250409]   INFO - tartup.impl.StartupManagerImpl - /home/test/test_GPIO/.idea case-sensitivity: expected=true actual=true 
+2016-11-24 12:49:50,180 [ 252473]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 22216 ms 
+2016-11-24 12:50:11,175 [ 273468]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 23372ms; general responsiveness: ok; EDT responsiveness: 1/24 sluggish, 4/24 very slow 
+2016-11-24 12:50:11,900 [ 274193]   WARN - ng.ui.PyCondaManagementService - Could not find conda python interpreter 
+2016-11-24 12:50:20,768 [ 283061]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 400 ms 
+2016-11-24 12:50:20,771 [ 283064]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean)): /home/pi/.PyCharmCE2016.3/system/python_stubs/-27415771 
+2016-11-24 12:50:20,777 [ 283070]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean)): /tmp/pycharm/pycharm-community-2016.3/helpers/python-skeletons 
+2016-11-24 12:50:31,714 [ 294007]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Unknown at /usr/bin/pypyclean (/usr/bin/pypyclean) 
+2016-11-24 12:50:31,714 [ 294007]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/pypyclean 
+2016-11-24 12:50:31,981 [ 294274]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 258 ms 
+2016-11-24 12:50:31,982 [ 294275]  ERROR - ns.python.sdk.PythonSdkUpdater - failed to run generator3.py for /usr/bin/pypyclean, exit code 2, stderr: 
+-----
+usage: pypyclean [-h] [-p PACKAGE] [-v] [-q] [directory [directory ...]]
+pypyclean: error: unrecognized arguments: -L
+----- 
+com.jetbrains.python.sdk.InvalidSdkException: failed to run generator3.py for /usr/bin/pypyclean, exit code 2, stderr: 
+-----
+usage: pypyclean [-h] [-p PACKAGE] [-v] [-q] [directory [directory ...]]
+pypyclean: error: unrecognized arguments: -L
+-----
+	at com.jetbrains.python.sdk.skeletons.PySkeletonGenerator.listBinaries(PySkeletonGenerator.java:234)
+	at com.jetbrains.python.sdk.skeletons.PySkeletonRefresher.regenerateSkeletons(PySkeletonRefresher.java:295)
+	at com.jetbrains.python.sdk.skeletons.PySkeletonRefresher.refreshSkeletonsOfSdk(PySkeletonRefresher.java:129)
+	at com.jetbrains.python.sdk.PythonSdkUpdater$2.run(PythonSdkUpdater.java:155)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:710)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:568)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:519)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:128)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:309)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-24 12:50:31,984 [ 294277]  ERROR - ns.python.sdk.PythonSdkUpdater - PyCharm Community Edition 2016.3  Build #PC-163.8233.8 
+2016-11-24 12:50:31,984 [ 294277]  ERROR - ns.python.sdk.PythonSdkUpdater - JDK: 1.8.0_65 
+2016-11-24 12:50:31,984 [ 294277]  ERROR - ns.python.sdk.PythonSdkUpdater - VM: Java HotSpot(TM) Server VM 
+2016-11-24 12:50:31,984 [ 294277]  ERROR - ns.python.sdk.PythonSdkUpdater - Vendor: Oracle Corporation 
+2016-11-24 12:50:31,985 [ 294278]  ERROR - ns.python.sdk.PythonSdkUpdater - OS: Linux 
+2016-11-24 12:50:31,985 [ 294278]  ERROR - ns.python.sdk.PythonSdkUpdater - Last Action: OpenFile 
+2016-11-24 12:53:11,016 [ 453309]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 54 ms 
+2016-11-24 15:54:57,343 [11359636]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-11-24 15:54:57,360 [11359653]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 5 auto-detected files
+Elapsed time on auto-detect: 202 ms 
+2016-11-24 15:54:57,370 [11359663]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-11-24 15:54:57,372 [11359665]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-11-24 15:54:57,372 [11359665]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-11-24 15:54:57,412 [11359705]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-11-24 15:54:57,422 [11359715]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-11-24 15:54:57,423 [11359716]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-11-24 15:54:57,432 [11359725]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-11-24 15:54:57,457 [11359750]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-11-24 15:54:57,486 [11359779]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

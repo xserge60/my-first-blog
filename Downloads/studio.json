@@ -1,0 +1,17 @@
+{
+    "param": {
+        "connected" : 1
+    },
+    "incoming_request": {
+        "console": {}
+    },
+    "outgoing_event": {
+        "system": {
+            "name": "system",
+            "param":{
+                "buject": {},
+                "command": {}
+            }
+        }
+    }
+}

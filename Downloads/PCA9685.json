@@ -1,0 +1,89 @@
+{
+    "param": {
+        "name": {
+            "value": "PCA9685",
+            "description": "16 channel servo driver"
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "PCA9685",
+            "description": "16 channel servo driver"
+        },
+        "address": {
+            "value": 64,
+            "description": "i2c address, default 0x40 = 64",
+            "type": "int"
+        },
+        "pwm_freq": {
+            "value": 50,
+            "description": "pwm frequency, default 50",
+            "type": "int"
+        },
+        "debug": {
+            "value": 0,
+            "description": "Уровень отладочных сообщений",
+            "type": "int"
+        }
+    },
+    "depend_buject": {
+        "BujectI2C": {}
+    },
+    "outgoing_request": {
+        "i2c_transaction": {
+            "name": "transaction",
+            "buject": "BujectI2C",
+            "description": "транзакции на i2c",
+            "response": 1
+        }
+    },
+    "incoming_request": {
+        "set_pwm_us": {
+            "name": "set_pwm_us",
+            "response": 0,
+            "description": "установить PWM на канале в ",
+            "param": {
+                "channel": {
+                    "description": "канал",
+                    "type": "int"
+                },
+                "value": {
+                    "description": "текст сообщения, ошибки",
+                    "type": "int"
+                }
+            }
+        },
+        "set_pwm": {
+            "name": "set_pwm",
+            "response": 0,
+            "description": "установить PWM на канале в ",
+            "param": {
+                "channel": {
+                    "description": "канал",
+                    "type": "int"
+                },
+                "on": {
+                    "description": "текст сообщения, ошибки",
+                    "type": "int"
+                },
+                "off": {
+                    "description": "текст сообщения, ошибки",
+                    "type": "int"
+                }
+            }
+        },
+        "set_prescale": {
+            "name": "set_pwm",
+            "response": 0,
+            "description": "установить PWM на канале в ",
+            "param": {
+                "value": {
+                    "value": 50,
+                    "description": "Частота выходного сигнала Hz",
+                    "type": "int"
+                }
+            }
+        }
+    }
+}

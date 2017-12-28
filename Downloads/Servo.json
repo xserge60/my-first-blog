@@ -1,0 +1,54 @@
+{
+    "param": {
+        "name": {
+            "value": "Servo",
+            "description": ""
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "Servo"
+        },
+        "sleep_timer": {
+            "value": 2,
+            "description": "Период бездействия перед засыпанием (сек). 0 - отключено",
+            "type": "int"
+        },
+        "max_pwm_us": {
+            "value": 2800,
+            "type": "int"
+        },
+        "min_pwm_us": {
+            "value": 700,
+            "type": "int"
+        },
+        "def_pwm_us": {
+            "value": 1500,
+            "type": "int"
+        }
+    },
+    "status": {
+        "pwm_us": {
+            "value" : 0,
+            "description": "The current pwm as μs"
+        },
+        "last_changes": {
+            "value" : 0,
+            "description": "The last changes position",
+            "type": "unixtime"
+        }
+    },
+    "incoming_request": {
+        "set_power": {
+            "description": "установка мощности мотора",
+            "ignore_same": 1,
+            "param": {
+                "value": {
+                    "description": "мощность мотора в процентах",
+                    "type": "int"
+                }
+            }
+        }
+    }
+}

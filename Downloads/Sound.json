@@ -1,0 +1,42 @@
+{
+    "param": {
+        "name": {
+            "value": "Sound",
+            "description": ""
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "Sound"
+        },
+        "lang": {
+            "value": "ru",
+            "description": "на каком языке говорить сообщения"
+        }
+    },
+    "incoming_event": {
+        "say_text": {
+            "name": "say_text",
+            "description": "сказать текст при помощи google TTS",
+            "param": {
+                "value": {
+                    "description": "текст"
+                }
+            }
+        },
+        "play": {
+            "name": "play",
+            "description": "проиграть файл, повторный вызов ставит на паузу",
+            "param": {
+                "value": {
+                    "description": "имя файла"
+                }
+            }
+        },
+        "get_playlist": {
+            "name": "get_playlist",
+            "description": "возвращает список файлов для проигрования mplayer"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "param": {
+        "name": {
+            "value": "Car",
+            "description": "car rear wheel drive"
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "Car"
+        },
+        "max_power": {
+            "value": 100,
+            "description": "default power rear wheels",
+            "type": "int"
+        },
+        "max_angle": {
+            "value": 100,
+            "description": "default angle of the front wheels",
+            "type": "int"
+        },
+        "GPIO_front_light": {
+            "value": 21,
+            "description": "default angle of the front wheels",
+            "type": "int"
+        },
+        "GPIO_rear_light": {
+            "value": 20,
+            "description": "default angle of the front wheels",
+            "type": "int"
+        }
+    },
+    "status": {
+        "cur_power": {
+            "value": 0,
+            "description": "default angle of the front wheels"
+        }
+    },
+    "depend_buject": {
+        "cameraX": {},
+        "cameraZ": {},
+        "BujectGPIO": {},
+        "move_motor": {},
+        "rotation_motor": {}
+    },
+    "outgoing_request": {
+        "set_power_rear_wheels": {
+            "name": "set_power",
+            "buject": "move_motor",
+            "response": 0
+            },
+        "set_angle_front_wheels": {
+            "name": "set_power",
+            "buject": "rotation_motor",
+            "response": 0
+            },
+        "set_power_cameraX": {
+            "name": "set_power",
+            "buject": "cameraX",
+            "response": 0
+            },
+        "set_power_cameraZ": {
+            "name": "set_power",
+            "buject": "cameraZ",
+            "response": 0
+            },
+        "set_gpio": {
+            "name": "set_gpio",
+            "buject": "BujectGPIO",
+            "description": "",
+            "response": 0
+            }
+    },
+    "incoming_event": {
+        "change_motor_power":{},
+        "set_angle":{},
+        "all_light":{
+            "param": {
+                "value": {
+                    "type": "int",
+                    "description": "1 - on, 0 - off"
+                }
+            }
+        },
+        "set_motor_power":{},
+        "change_camera_position":{
+            "ignore_message": 1
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "param": {
+        "redis_host": {
+            "value": "localhost",
+            "description": "имя сервиса",
+            "type": "str",
+            "readonly": 1
+        },
+        "redis_port": {
+            "value": 6379,
+            "description": "",
+            "type": "int",
+            "readonly": 1
+        },
+        "redis_db": {
+            "value": 0,
+            "description": "БД redis",
+            "type": "int",
+            "readonly": 1
+        },
+        "name": {
+            "value": "bubot",
+            "description": "имя бубота к которому относится текущий buject",
+            "type": "str"
+        },
+        "web_port": {
+            "value": 80,
+            "description": "",
+            "type": "int",
+            "readonly": 1
+        },
+        "cookie_secret": {
+            "value": "",
+            "description": "",
+            "readonly": 1
+        },
+        "debug": {"value": 0},
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "Bubot"
+        }
+    },
+    "outgoing_event": {
+        "system": {
+            "name": "system",
+            "param":{
+                "buject": {},
+                "command": {}
+            }
+        }
+    },
+    "ui": {
+        "studio": {}
+    }
+}

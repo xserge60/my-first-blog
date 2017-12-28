@@ -1,0 +1,29 @@
+{
+    "param": {
+        "name": {
+            "value": "PCA9685Servo",
+            "description": ""
+        },
+        "parent": {
+            "value": "Servo"
+        },
+        "buject": {
+            "value": "PCA9685Servo"
+        },
+        "PCA9685_channel": {
+            "value": 0,
+            "type": "int"
+        }
+    },
+    "depend_buject": {
+        "PCA9685": {}
+    },
+    "outgoing_request": {
+        "set_pwm_us": {
+            "name": "set_pwm_us",
+            "buject": "PCA9685",
+            "description": "транзакции на i2c",
+            "response": 0
+            }
+    }
+}

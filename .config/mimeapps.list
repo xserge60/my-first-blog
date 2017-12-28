@@ -1,0 +1,8 @@
+[Added Associations]
+application/zip=xarchiver.desktop;
+audio/mpeg=pimixer.desktop;
+inode/directory=chromium-browser.desktop;pcmanfm.desktop;
+application/x-python-bytecode=idle3.desktop;
+
+[Default Applications]
+inode/directory=pcmanfm.desktop

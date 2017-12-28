@@ -1,0 +1,37 @@
+{
+    "param": {
+        "name": {
+            "value": "scout_easy"
+        }
+    },
+    "depend_buject": {
+        "move_motor": {
+            "param": {
+                "buject": {
+                    "value": "MotorTest"
+                },
+                "name": {
+                    "value": "move_motor"
+                },
+                "GPIO_forward": {
+                    "value": 20
+                },
+                "GPIO_reward": {
+                    "value": 21
+                }
+            }
+        },
+        "rotate_motor": {
+            "param": {
+                "buject": {
+                    "value": "MotorTest"
+                },
+                "name": {
+                    "value": "rotate_motor"
+                },
+                "GPIO_forward": {
+                    "value": 13
+                },
+                "GPIO_reward": {
+                    "value": 19
+}   }   }   }   }

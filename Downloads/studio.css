@@ -1,0 +1,35 @@
+#sidebar_left {
+    padding: 0px;
+    width: 350px;
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#sidebar_right {
+    padding: 0px;
+    width: 400px;
+    float: right;
+    overflow-y: auto;
+}
+
+#content {
+    padding: 0px;
+    margin: 0 auto;
+    width: auto;
+    overflow: auto;
+}
+#console {
+    padding: 0px;
+    margin: 0 auto;
+    width: auto;
+    overflow-y: auto;
+}
+#AvailableBujects, #AvailableBubots {
+    padding: 3px;
+}
+
+#Bubot .ui-selected {
+    background: #F39814;
+    color: white;
+}

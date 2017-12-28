@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-pi-applications.menu</MergeFile>
+	<Menu>
+		<Name>Development</Name>
+		<Exclude>
+			<Filename>bluej.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/pi/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>greenfoot.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>wolfram-mathematica.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>python2.7.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>python3.4.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>wolfram-language.desktop</Filename>
+		</Exclude>
+	</Menu>
+</Menu>

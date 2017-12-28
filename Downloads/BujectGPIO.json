@@ -1,0 +1,36 @@
+{
+    "param": {
+        "name": {
+            "value": "BujectGPIO",
+            "description": "GPIO"
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "BujectGPIO",
+            "description": "GPIO"
+        },
+        "mode": {
+            "value": 11,
+            "description": "value for GPIO.setmode GPIO.BOARD=10 GPIO.BCM=11",
+            "type": "int"
+        }
+    },
+    "incoming_request": {
+        "set_gpio": {
+            "param": {
+                "channel": {
+                    "description": "pin number",
+                    "type": "int"
+                },
+                "value": {
+                    "value" : 1,
+                    "description": "1 - on / 0  - off",
+                    "type": "int"
+                }
+            },
+            "description": ""
+        }
+    }
+}

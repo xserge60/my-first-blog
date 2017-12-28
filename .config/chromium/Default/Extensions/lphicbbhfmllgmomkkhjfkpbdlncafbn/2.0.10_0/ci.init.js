@@ -1,0 +1,1 @@
+window["framework"] = new AddonsFramework({"statUrl":"","version":"2.0.10","name":"LetyShops","description":"Расширение напомнит Вам о кэшбэке при каждой покупке и возместит до 30% потраченных денег.","url":"https://letyshops.ru","author":"LetyShops","updateUrl":"","AddonsFrameworkVersion":"1.3.7.8"});

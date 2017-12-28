@@ -1,0 +1,80 @@
+[ 65404.564] 
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+[ 65404.564] X Protocol Version 11, Revision 0
+[ 65404.564] Build Operating System: Linux 4.4.26-v7+ armv7l Raspbian
+[ 65404.564] Current Operating System: Linux RPi 4.9.35-v7+ #1014 SMP Fri Jun 30 14:47:43 BST 2017 armv7l
+[ 65404.564] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+[ 65404.565] Build Date: 11 November 2016  11:59:59AM
+[ 65404.565] xorg-server 2:1.18.4-2+rpi1 (https://www.debian.org/support) 
+[ 65404.565] Current version of pixman: 0.33.3
+[ 65404.565] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 65404.565] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 65404.565] (==) Log file: "/home/pi/.local/share/xorg/Xorg.0.log", Time: Wed Dec 27 12:27:01 2017
+[ 65404.566] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 65404.567] (==) No Layout section.  Using the first Screen section.
+[ 65404.567] (==) No screen section available. Using defaults.
+[ 65404.567] (**) |-->Screen "Default Screen Section" (0)
+[ 65404.567] (**) |   |-->Monitor "<default monitor>"
+[ 65404.568] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[ 65404.568] (**) |   |-->Device "Allwinner A10/A13 FBDEV"
+[ 65404.568] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 65404.568] (==) Automatically adding devices
+[ 65404.568] (==) Automatically enabling devices
+[ 65404.568] (==) Automatically adding GPU devices
+[ 65404.568] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 65404.568] (WW) The directory "/usr/share/fonts/X11/misc" does not exist.
+[ 65404.569] 	Entry deleted from font path.
+[ 65404.569] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[ 65404.569] 	Entry deleted from font path.
+[ 65404.569] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[ 65404.569] 	Entry deleted from font path.
+[ 65404.569] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[ 65404.569] 	Entry deleted from font path.
+[ 65404.569] (==) FontPath set to:
+	/usr/share/fonts/X11/100dpi/:unscaled,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	built-ins
+[ 65404.569] (==) ModulePath set to "/usr/lib/xorg/modules"
+[ 65404.569] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 65404.569] (II) Loader magic: 0x54d42f20
+[ 65404.569] (II) Module ABI versions:
+[ 65404.569] 	X.Org ANSI C Emulation: 0.4
+[ 65404.569] 	X.Org Video Driver: 20.0
+[ 65404.569] 	X.Org XInput driver : 22.1
+[ 65404.569] 	X.Org Server Extension : 9.0
+[ 65404.580] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c10
+[ 65404.580] (II) no primary bus or device found
+[ 65404.580] (II) LoadModule: "glx"
+[ 65404.582] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[ 65404.589] (II) Module glx: vendor="X.Org Foundation"
+[ 65404.589] 	compiled for 1.18.4, module version = 1.0.0
+[ 65404.589] 	ABI class: X.Org Server Extension, version 9.0
+[ 65404.589] (==) AIGLX enabled
+[ 65404.589] (II) LoadModule: "fbturbo"
+[ 65404.589] (II) Loading /usr/lib/xorg/modules/drivers/fbturbo_drv.so
+[ 65404.590] (II) Module fbturbo: vendor="X.Org Foundation"
+[ 65404.590] 	compiled for 1.18.4, module version = 0.5.1
+[ 65404.590] 	Module class: X.Org Video Driver
+[ 65404.590] 	ABI class: X.Org Video Driver, version 20.0
+[ 65404.590] (II) FBTURBO: driver for framebuffer: fbturbo
+[ 65404.590] (EE) 
+Fatal server error:
+[ 65404.590] (EE) parse_vt_settings: Cannot open /dev/tty0 (Permission denied)
+[ 65404.590] (EE) 
+[ 65404.591] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[ 65404.591] (EE) Please also check the log file at "/home/pi/.local/share/xorg/Xorg.0.log" for additional information.
+[ 65404.591] (EE) 
+[ 65404.591] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[ 65404.591] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[ 65404.593] (EE) Server terminated with error (1). Closing log file.

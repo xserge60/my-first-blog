@@ -1,0 +1,31 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="/home/test/test_GPIO" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="/home/test/test_GPIO" />
+      </list>
+    </option>
+    <option name="lastPath" value="/home/test/test_GPIO" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="/home/test/test_GPIO">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-163.8233.8" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1479984572523" />
+              <option name="buildTimestamp" value="1479821226805" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="/home/test" />
+  </component>
+</application>

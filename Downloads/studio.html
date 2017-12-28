@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/jquery-ui-1.11.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="/ui/studio/studio.css">
+    <script type="text/javascript" src="/static/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="/static/svg.min.js"></script>
+    <script type="text/javascript" src="/static/svg.draggable.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-ui-1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/static/bubot_socket.js"></script>
+    <script type="text/javascript" src="/ui/studio/studio.js"></script>
+
+    <title></title>
+    <style>
+
+    </style>
+</head>
+<script>
+</script>
+<body class="ui-widget-content">
+<div id="main" class="ui-widget-content">
+    <div id="toolbar" class="ui-widget-header ui-corner-all">
+        <button id="stop">bubot stop</button>
+        <button id="save">bubot save</button>
+    </div>
+    <div id="sidebar_left" class="ui-widget-content">
+        <ul>
+            <li><a href="#AvailableBujects">buject</a></li>
+            <li><a href="#AvailableBubots">bubot</a></li>
+        </ul>
+        <div id="AvailableBujects" class="ui-widget-content">
+        </div>
+        <div id="AvailableBubots" class="ui-widget-content">
+        </div>
+    </div>
+
+    <div id="sidebar_right" class="ui-widget-content">
+        <table id="BujectProperties" width=100% class="ui-widget ui-widget-content"></table>
+    </div>
+    <div id="content" title="Status bubot: " class="ui-widget-content">
+        <table id="Bubot" width=100% class="ui-widget ui-widget-content">
+            <thead>
+            <tr class="ui-widget-header">
+                <th width="15%">Name</th>
+                <th width="15%">Buject</th>
+                <th width="35%">Status</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="console" class="ui-widget-content"></div>
+<div id="dialog-method" title="buject method">
+    <form>
+        <table id="MethodParam" width=100% class="ui-widget ui-widget-content"></table>
+    </form>
+</div>
+</body>
+</html>

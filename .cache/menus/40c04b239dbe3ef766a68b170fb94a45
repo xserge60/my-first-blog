@@ -1,0 +1,1715 @@
+1.2
+lxde-applications.menu+hidden
+16
+D/home/pi/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/pi/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/pi/.config/menus/applications-merged
+F/home/pi/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/menus/debian-menu.menu
+
++Applications
+Приложения
+Приложения
+applications-other
+lxde-menu-applications.directory
+2
+0
++Debian
+Debian
+
+debian-logo
+lxde-debian.directory
+2
+4
+
++Multimedia
+Аудио и видео
+Мультимедиа
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-xfce4-mixer.desktop
+Audio Mixer
+Adjust volume levels
+multimedia-volume-control
+
+7
+
+xfce4-mixer
+2
+0
+
+
+X-XFCE;Audio;Mixer;AudioVideo
+
+-qjackctl.desktop
+QjackCtl
+Программа для управления звуковым сервером JACK
+qjackctl
+
+7
+Управление JACK
+/usr/bin/qjackctl
+0
+0
+
+
+Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt
+audio,sound,jackd
+-SuperColliderIDE.desktop
+SuperCollider IDE
+
+sc_ide
+
+7
+SuperCollider IDE
+scide %f
+0
+0
+
+
+Application;Multimedia;Audio;AudioVideo
+
+
++Graphics
+Графика
+Графические приложения
+applications-graphics
+lxde-graphics.directory
+2
+0
+-libreoffice-draw.desktop
+LibreOffice Draw
+Создание и редактирование рисунков, блок-схем и логотипов.
+libreoffice-draw
+
+7
+Редактор рисунков
+libreoffice --draw %U
+2
+0
+
+
+Office;Graphics;FlowChart;Graphics;2DGraphics;VectorGraphics
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Corel Draw,cdr,odg,svg
+-xpdf.desktop
+xpdf
+View PDF files
+xpdf
+
+7
+PDF viewer
+xpdf
+0
+0
+
+
+Viewer;Graphics
+Viewer,Graphics
+
++Games
+Игры
+Игры и развлечения
+applications-games
+lxde-game.directory
+2
+0
+-minecraft-pi.desktop
+Minecraft Pi
+Fun with Blocks
+/usr/share/pixmaps/minecraft-pi.png
+
+7
+
+minecraft-pi
+2
+0
+
+
+Application;Game
+
+
++Internet
+Интернет
+Программы для работы с Интернетом (почта, браузер и т.п.)
+applications-internet
+lxde-network.directory
+2
+0
+-claws-mail.desktop
+Claws Mail
+Lightweight and Fast GTK+ based Mail Client
+claws-mail
+
+7
+E-mail client
+claws-mail %u
+2
+0
+
+
+Network;Email
+lightweight,fast,gui,extensible,plugin,pop,pop3,imap,imap4,nntp,news
+-dillo.desktop
+Dillo
+Lightweight browser
+dillo
+
+7
+Web Browser
+dillo %F
+0
+0
+
+
+Network;WebBrowser
+
+-netsurf-gtk.desktop
+NetSurf Web Browser
+Browse the World Wide Web
+netsurf.png
+
+7
+Web Browser
+netsurf-gtk %u
+2
+0
+
+
+Network
+
+-realvnc-vncaddrbook.desktop
+VNC Address Book
+Rapidly connect to computers you've connected to before
+/usr/share/icons/hicolor/48x48/apps/vncaddrbook48x48.png
+
+7
+VNC Address Book
+vncaddrbook
+0
+0
+
+
+Application;Network;RemoteAccess
+
+-realvnc-vnclicensehelper.desktop
+VNC License Helper
+Install a VNC license key
+/usr/share/icons/hicolor/48x48/apps/vnclicensewiz48x48.png
+
+7
+VNC License
+vnclicensehelper -key %f
+4
+0
+
+
+Application;Network;RemoteAccess
+
+-realvnc-vncviewer.desktop
+VNC Viewer
+Connect to computers running VNC Server
+/usr/share/icons/hicolor/48x48/apps/vncviewer48x48.png
+
+7
+VNC Viewer
+vncviewer %f
+0
+0
+
+
+Application;Network;RemoteAccess
+
+-lxde-x-www-browser.desktop
+Web Browser
+
+web-browser
+
+7
+X Web Browser
+/usr/bin/x-www-browser %u
+4
+0
+
+
+GTK;WebBrowser;Network
+
+-exo-web-browser.desktop
+Веб-браузер
+Смотреть в Интернете
+web-browser
+
+7
+
+exo-open --launch WebBrowser %u
+2
+8
+
+
+Network;X-XFCE;X-Xfce-Toplevel
+
+-chromium-browser.desktop
+Веб-браузер Chromium
+Доступ в Интернет
+chromium-browser
+
+7
+Веб-браузер
+chromium-browser %U
+2
+0
+
+
+Network;WebBrowser
+
+-epiphany-browser.desktop
+Веб-браузер Epiphany
+Веб-браузер
+web-browser
+
+7
+Веб-браузер
+epiphany-browser %U
+2
+0
+
+
+Network;GNOME;GTK;WebBrowser
+веб,браузер,интернет
+-epiphany-newtab.desktop
+Веб-браузер Epiphany
+Веб-браузер
+web-browser
+
+7
+Веб-браузер
+epiphany-browser -n %U
+6
+0
+
+
+Network;GNOME;GTK;WebBrowser
+веб,браузер,интернет
+-exo-mail-reader.desktop
+Почтовая программа
+Читать электронную почту
+internet-mail
+
+7
+
+exo-open --launch MailReader %u
+2
+8
+
+
+Network;X-XFCE;X-Xfce-Toplevel
+
+
++Education
+Образовательные
+
+applications-science
+lxde-education.directory
+2
+0
+-libreoffice-math.desktop
+LibreOffice Math
+Создание и редактирование научных формул и уравнений.
+libreoffice-math
+
+7
+Редактор формул
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math
+Equation,OpenDocument Formula,Formula,odf,MathML
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+7
+
+scratch %f
+0
+0
+
+
+Application;Education;Development;ComputerScience
+
+-squeak.desktop
+Squeak
+Programming system and content development tool
+/usr/share/pixmaps/squeak.png
+
+7
+
+squeak
+0
+0
+
+
+Application;Education;Development
+
+
++Office
+Офис
+Офисные приложения
+applications-office
+lxde-office.directory
+2
+0
+-libreoffice-startcenter.desktop
+LibreOffice
+Офисный пакет совместим с открытым и стандартизованным форматом документов ODF. Поддерживается The Document Foundation.
+libreoffice-startcenter
+
+7
+Офис
+libreoffice %U
+2
+0
+
+
+Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other
+
+-libreoffice-base.desktop
+LibreOffice Base
+Управление базами данных, создание запросов и отчётов для слежения и управления вашей информацией при помощи Base.
+libreoffice-base
+
+7
+База данных
+libreoffice --base %U
+2
+0
+
+
+Office;Database
+Data,SQL
+-libreoffice-calc.desktop
+LibreOffice Calc
+Выполнение вычислений, анализ информации и управление списками в электронных таблицах с помощью Calc.
+libreoffice-calc
+
+7
+Электронная таблица
+libreoffice --calc %U
+2
+0
+
+
+Office;Spreadsheet
+Accounting,Stats,OpenDocument Spreadsheet,Chart,Microsoft Excel,Microsoft Works,OpenOffice Calc,ods,xls,xlsx
+-libreoffice-draw.desktop
+LibreOffice Draw
+Создание и редактирование рисунков, блок-схем и логотипов.
+libreoffice-draw
+
+7
+Редактор рисунков
+libreoffice --draw %U
+2
+0
+
+
+Office;Graphics;FlowChart;Graphics;2DGraphics;VectorGraphics
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Corel Draw,cdr,odg,svg
+-libreoffice-impress.desktop
+LibreOffice Impress
+Создание и редактирование презентаций для показов, встреч и веб-страниц.
+libreoffice-impress
+
+7
+Презентация
+libreoffice --impress %U
+2
+0
+
+
+Office;Presentation
+Slideshow,Slides,OpenDocument Presentation,Microsoft PowerPoint,Microsoft Works,OpenOffice Impress,odp,ppt,pptx
+-libreoffice-math.desktop
+LibreOffice Math
+Создание и редактирование научных формул и уравнений.
+libreoffice-math
+
+7
+Редактор формул
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math
+Equation,OpenDocument Formula,Formula,odf,MathML
+-libreoffice-writer.desktop
+LibreOffice Writer
+Создание и редактирование текста и рисунков в письмах, отчётах, документах или веб-страницах.
+libreoffice-writer
+
+7
+Текстовый процессор
+libreoffice --writer %U
+2
+0
+
+
+Office;WordProcessor
+Text,Letter,Fax,Document,OpenDocument Text,Microsoft Word,Microsoft Works,Lotus WordPro,OpenOffice Writer,CV,odt,doc,docx,rtf
+-xfcalendar.desktop
+Календарь Orage
+Простой календарь
+xfcalendar
+
+7
+Календарь
+orage
+2
+0
+
+
+X-XFCE;Office;Calendar;GTK
+
+-globaltime.desktop
+Мировое время Orage
+Показывать время других стран
+orage_globaltime
+
+7
+Мировое время
+globaltime
+2
+0
+
+
+X-XFCE;Office;Clock;GTK;Utility
+
+
++Development
+Программирование
+Средства для разработки программ
+applications-development
+lxde-development.directory
+2
+0
+-bluej.desktop
+BlueJ Java IDE
+A simple powerful Java IDE
+bluej
+
+5
+
+bluej
+4
+0
+bluej
+
+Application;Development
+
+-geany.desktop
+Geany
+Быстрая и легковесная среда разработки, использующая GTK2
+geany
+
+7
+Интегрированная среда разработки
+geany %F
+2
+0
+
+
+GTK;Development;IDE
+
+-greenfoot.desktop
+Greenfoot Java IDE
+A simple Java IDE and animation framework
+greenfoot
+
+5
+
+greenfoot
+4
+0
+greenfoot
+
+Application;Development
+
+-idle.desktop
+IDLE
+Integrated Development Environment for Python
+/usr/share/pixmaps/idle.xpm
+
+7
+
+/usr/bin/idle
+2
+0
+
+
+Application;Development
+
+-idle3.desktop
+IDLE 3
+Integrated DeveLopment Environment for Python3
+/usr/share/pixmaps/idle3.xpm
+
+7
+
+/usr/bin/idle3
+2
+0
+
+
+Application;Development
+
+-idle-python2.7.desktop
+IDLE (using Python-2.7)
+Integrated Development Environment for Python (using Python-2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+7
+
+/usr/bin/idle-python2.7
+2
+0
+
+
+Application;Development
+
+-idle-python3.4.desktop
+IDLE (using Python-3.4)
+Integrated Development Environment for Python (using Python-3.4)
+/usr/share/pixmaps/python3.4.xpm
+
+7
+
+/usr/bin/idle-python3.4
+2
+0
+
+
+Application;Development
+
+-wolfram-mathematica.desktop
+Mathematica
+Technical Computing System
+wolfram-mathematica
+
+5
+
+mathematica %F
+6
+0
+mathematica
+
+Application;Development
+
+-Node-RED.desktop
+Node-RED
+Flow based application composer for the Internet of Things
+/usr/share/icons/gnome/scalable/apps/node-red-icon.svg
+
+7
+
+node-red-start
+1
+0
+
+
+Development
+
+-jetbrains-pycharm-ce.desktop
+PyCharm Community Edition
+The Drive to Develop
+/tmp/pycharm/pycharm-community-2016.3/bin/pycharm.png
+
+7
+
+"/tmp/pycharm/pycharm-community-2016.3/bin/pycharm.sh" %f
+0
+0
+
+
+Development;IDE
+
+-python2.7.desktop
+Python (v2.7)
+Python Interpreter (v2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+5
+
+/usr/bin/python2.7
+7
+0
+
+
+Development
+
+-python3.4.desktop
+Python (v3.4)
+Python Interpreter (v3.4)
+/usr/share/pixmaps/python3.4.xpm
+
+5
+
+/usr/bin/python3.4
+7
+0
+
+
+Development
+
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+7
+
+scratch %f
+0
+0
+
+
+Application;Education;Development;ComputerScience
+
+-sense_emu_gui.desktop
+Sense HAT Emulator
+GUI for controlling the emulated Sense HAT
+sense_emu_gui
+
+7
+
+sense_emu_gui
+2
+0
+
+
+Development
+
+-sonic-pi.desktop
+Sonic Pi
+Learn programming and computer science while creating music
+/usr/share/pixmaps/sonic-pi.png
+
+7
+
+sonic-pi
+0
+0
+
+
+Application;Development
+
+-squeak.desktop
+Squeak
+Programming system and content development tool
+/usr/share/pixmaps/squeak.png
+
+7
+
+squeak
+0
+0
+
+
+Application;Education;Development
+
+-wolfram-language.desktop
+Wolfram
+Technical Programming Environment
+wolfram-language
+
+5
+
+x-terminal-emulator -t "Wolfram Language" -e wolfram
+6
+0
+wolfram
+
+Application;Development
+
+
++Other
+Прочие
+Приложения, не подпадающие ни под какие категории
+applications-other
+lxde-other.directory
+2
+0
+-libreoffice-xsltfilter.desktop
+LibreOffice XSLT based filters
+
+
+
+7
+Фильтры XSLT
+libreoffice %U
+6
+0
+
+
+
+
+-lxde-screenlock.desktop
+Блокировка экрана
+Заблокировать экран
+system-lock-screen
+
+7
+
+lxlock
+4
+0
+lxlock
+
+
+
+-lxde-logout.desktop
+Выход
+Выйти, выключить или перезапустить
+gnome-logout
+
+7
+
+lxde-logout
+4
+0
+
+
+
+
+-panel-desktop-handler.desktop
+Создать значок запуска на панели
+Создать значок запуска для приложения, описываемого этим desktop-файлом
+application-x-executable
+
+7
+
+xfce4-panel --add=launcher %u
+4
+0
+
+
+
+
+
++System
+Системные
+Средства конфигурации и мониторинга системы
+applications-system
+lxde-system-tools.directory
+2
+0
+-lxterminal.desktop
+LXTerminal
+Использовать командную строку
+lxterminal
+
+7
+Терминал
+lxterminal
+0
+0
+lxterminal
+
+GTK;System;TerminalEmulator
+console,command line,execute
+-mc.desktop
+Midnight Commander
+File manager
+MidnightCommander
+
+7
+
+mc
+1
+0
+
+
+ConsoleOnly;Utility;FileManager;System;FileTools
+
+-lxde-x-terminal-emulator.desktop
+Terminal emulator
+Terminal Emulator
+terminal
+
+7
+Terminal Emulator
+/usr/bin/x-terminal-emulator
+6
+0
+
+
+System;TerminalEmulator;Utility
+
+-xfce4-session-logout.desktop
+Выйти
+Выход из Xfce
+system-log-out
+
+7
+
+xfce4-session-logout
+0
+8
+
+
+System;X-XFCE;X-Xfce-Toplevel
+
+-lxtask.desktop
+Диспетчер задач
+Управлять запущенными приложениями и процессами
+utilities-system-monitor
+
+7
+Диспетчер процессов
+lxtask
+2
+0
+
+
+GTK;System;Monitor
+task,kill,suspend,processor,memory,monitoring,performance
+-pi-gpk-log.desktop
+Журнал
+Просмотр последних заданий по управлению пакетами
+gpk-log
+
+7
+
+pi-gpk-log
+6
+0
+
+
+GNOME;GTK;System
+
+-Thunar-bulk-rename.desktop
+Массовое переименование
+Переименование нескольких файлов
+Thunar
+
+7
+Массовое переименование
+/usr/lib/arm-linux-gnueabihf/Thunar/ThunarBulkRename %F
+2
+0
+
+
+System;Utility;Core;GTK;Filesystem
+
+-pi-gpk-update-viewer.desktop
+Обновление пакетов
+Обновление программ, установленных в системе
+system-software-update
+
+7
+
+pi-gpk-update-viewer
+6
+-5
+
+
+GNOME;GTK;System
+
+-Thunar-folder-handler.desktop
+Открыть каталог с помощью Thunar
+Открыть выбранные каталоги в Thunar
+Thunar
+
+7
+Открыть каталог
+thunar %F
+6
+0
+Thunar
+
+System;Utility;Core;GTK;FileTools;FileManager
+
+-gksu.desktop
+Терминал суперпользователя
+Открыть терминал для суперпользователя, используя gksu для запроса пароля
+gksu-root-terminal
+
+7
+
+gksu /usr/bin/x-terminal-emulator
+2
+0
+
+
+GTK;System;TerminalEmulator
+
+-pi-gpk-install-local-file.desktop
+Установка пакетов
+Установить выбранные пакеты
+system-software-install
+
+7
+
+pi-gpk-install-local-file %F
+6
+0
+
+
+System
+
+-pi-gpk-dbus-service.desktop
+Установка программ
+Установить в систему выбранные программы
+system-software-install
+
+7
+
+pi-gpk-dbus-service
+6
+0
+
+
+System
+
+-pcmanfm.desktop
+Файловый менеджер PCManFM
+Просмотр файловой системы и управление файлами
+system-file-manager
+
+7
+Файловый менеджер
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-Thunar.desktop
+Файловый менеджер Thunar
+Просмотр файловой системы с помощью файлового менеджера
+Thunar
+
+7
+Файловый менеджер
+thunar %F
+2
+0
+
+
+System;Utility;Core;GTK;FileTools;FileManager
+
+
++Universal Access
+Специальные возможности
+Параметры специальных возможностей
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+2
+4
+
++Accessories
+Стандартные
+Стандартные приложения
+applications-accessories
+lxde-utility.directory
+2
+0
+-galculator.desktop
+Galculator
+Perform simple and scientific calculations
+galculator
+
+7
+
+galculator
+2
+0
+
+
+Utility
+
+-leafpad.desktop
+Leafpad
+Простой текстовый редактор
+leafpad
+
+7
+
+leafpad %f
+0
+0
+
+
+GTK;Utility;TextEditor
+editor
+-piclone.desktop
+SD Card Copier
+Make a copy of the Raspbian SD card
+media-removable
+
+7
+SD Card Copier
+piclone
+2
+-11
+
+
+Utility
+
+-vim.desktop
+Vim
+Редактор текстовых файлов
+vim
+
+7
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+
+-xarchiver.desktop
+Xarchiver
+Менеджер архивов только для GTK+2
+xarchiver
+
+7
+Менеджер архивов
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Utility
+GTK,archiver,frontend,compression,zip,bz2,7z,gzip,deb,rpm,arj,lzma,rar,xz
+-xfce4-run.desktop
+Запустить приложение...
+Запуск приложения
+gtk-execute
+
+7
+
+xfce4-appfinder --collapsed
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-globaltime.desktop
+Мировое время Orage
+Показывать время других стран
+orage_globaltime
+
+7
+Мировое время
+globaltime
+2
+0
+
+
+X-XFCE;Office;Clock;GTK;Utility
+
+-xfce4-about.desktop
+Об Xfce
+Сведения об окружении Xfce
+help-about
+
+7
+
+xfce4-about
+0
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-xfce4-appfinder.desktop
+Поиск приложений
+Поиск и запуск установленных в вашей системе приложений
+gtk-find
+
+7
+
+xfce4-appfinder
+2
+0
+
+
+Utility;X-XFCE
+
+-gpicview.desktop
+Просмотр изображений
+Смотрите ваши изображения без проблем
+gpicview
+
+7
+Просмотр изображений
+gpicview %f
+2
+0
+
+
+Graphics;Utility;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+graphics,pictures,viever,photography
+-debian-reference-common.desktop
+Справочник по Debian
+Debian Reference Guide
+debian-reference.png
+
+7
+
+debian-reference
+0
+0
+
+
+Utility
+user,shell,command,documentation,manual,help,guide
+-exo-file-manager.desktop
+Файловый менеджер
+Просмотреть файловую систему
+system-file-manager
+
+7
+
+exo-open --launch FileManager %u
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-exo-terminal-emulator.desktop
+Эмулятор терминала
+Использовать командную строку
+utilities-terminal
+
+7
+
+exo-open --launch TerminalEmulator
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+
+-
++DesktopSettings
+Параметры
+Персональные предпочтения
+preferences-desktop
+lxde-settings.directory
+2
+0
+-pi-packages.desktop
+Add / Remove Software
+Установка и удаление программ, установленных в системе
+system-software-install
+
+7
+
+pi-packages
+2
+-5
+
+
+GNOME;GTK;System;Settings;PackageManager
+Обновления,Источники,Репозитории,Параметры,Установка,Хранилище
+-pipanel.desktop
+Appearance Settings
+Configure the appearance of the desktop and windows
+preferences-desktop-theme
+
+7
+Appearance Settings
+pipanel
+2
+-11
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-pimixer.desktop
+Audio Device Settings
+Settings for internal and external audio devices
+multimedia-volume-control
+
+7
+
+pimixer
+2
+0
+
+
+Settings
+
+-lxkeymap.desktop
+Lxkeymap
+Lxkeymap application
+/usr/share/lxkeymap/media/icon.png
+
+7
+
+lxkeymap
+0
+0
+
+
+Settings
+
+-alacarte.desktop
+Main Menu Editor
+Добавить или удалить приложения из главного меню
+alacarte
+
+7
+
+alacarte
+2
+-5
+
+
+GNOME;Settings;DesktopSettings
+
+-rc_gui.desktop
+Raspberry Pi Configuration
+Configure Raspberry Pi system
+rpi
+
+7
+Raspberry Pi Configuration
+rc_gui
+2
+-11
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-xfce-ui-settings.desktop
+Внешний вид
+Настройки внешнего вид рабочего стола
+preferences-desktop-theme
+
+7
+
+xfce4-appearance-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-settings-manager.desktop
+Диспетчер настроек
+Графический диспетчер настроек для Xfce 4
+preferences-desktop
+
+7
+
+xfce4-settings-manager
+0
+8
+
+
+X-XFCE;Settings;DesktopSettings
+
+-xfce-wm-settings.desktop
+Диспетчер окон
+Настройка поведения окна и комбинаций клавиш
+xfwm4
+
+7
+
+xfwm4-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-wmtweaks-settings.desktop
+Диспетчер окон (дополнительно)
+Дополнительная настройка поведения окна и эффектов
+wmtweaks
+
+7
+
+xfwm4-tweaks-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-display-settings.desktop
+Дисплей
+Настройки экрана
+video-display
+
+7
+
+xfce4-display-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-pi-gpk-prefs.desktop
+Источники пакетов
+Включить или выключить репозитории пакетов
+gpk-prefs
+
+7
+
+pi-gpk-prefs
+6
+-5
+
+
+Settings;X-GNOME-SystemSettings
+
+-xfce-keyboard-settings.desktop
+Клавиатура
+Изменение настроек клавиатуры и комбинаций клавиш
+preferences-desktop-keyboard
+
+7
+
+xfce4-keyboard-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-lxinput.desktop
+Клавиатура и мышь
+Настроить клавиатуру, мышь и другие устройства ввода
+preferences-desktop-peripherals
+
+7
+
+lxinput
+2
+-15
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-synaptic.desktop
+Менеджер пакетов Synaptic
+Установить, удалить и обновить пакеты
+synaptic
+
+7
+Менеджер пакетов
+synaptic-pkexec
+0
+-5
+
+
+PackageManager;GTK;System;Settings
+
+-synaptic-kde.desktop
+Менеджер пакетов Synaptic
+Установить, удалить и обновить пакеты
+synaptic
+
+7
+Менеджер пакетов
+synaptic
+0
+4
+
+
+PackageManager;System
+
+-xfce-mouse-settings.desktop
+Мышь и тачпад
+Настройка поведения и внешнего вида устройств указания
+preferences-desktop-peripherals
+
+7
+
+xfce4-mouse-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-lxappearance.desktop
+Настройка внешнего вида
+Настройте тему рабочего стола и приложений
+preferences-desktop-theme
+
+7
+Настройка внешнего вида
+lxappearance
+2
+-15
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+окна,предпочтения,настройки,установки,тема,стиль,оформление,вид
+-lxsession-edit.desktop
+Настройка параметров сессии рабочего стола
+Управление приложениями, загружаемыми в сессии рабочего стола
+xfwm4
+
+7
+
+lxsession-edit
+0
+-15
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-xfce-xfcalendar-settings.desktop
+Настройки Orage
+Параметры календаря Xfce 4 (Orage)
+xfcalendar
+
+7
+Параметры календаря Orage
+orage -p
+0
+8
+
+
+X-XFCE;Settings;DesktopSettings;X-XfceSettingsDialog
+
+-lxrandr.desktop
+Настройки дисплея
+Смена разрешения экрана и настройка внешних дисплеев
+video-display
+
+7
+
+lxrandr
+0
+-15
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-xfce4-notifyd-config.desktop
+Оповещения
+Настройка отображения оповещений на вашем экране
+xfce4-notifyd
+
+7
+
+xfce4-notifyd-config
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-panel-preferences.desktop
+Панель
+Настройка панели
+xfce4-panel
+
+7
+
+xfce4-panel --preferences
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-pcmanfm-desktop-pref.desktop
+Параметры рабочего стола
+Смена обоев рабочего стола и поведения менеджера рабочего стола
+user-desktop
+
+7
+
+pcmanfm --desktop-pref
+2
+-15
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-exo-preferred-applications.desktop
+Предпочитаемые приложения
+Предпочитаемые приложения (веб-браузер, почтовая программа и эмулятор терминала)
+preferences-desktop-default-applications
+
+7
+
+exo-preferred-applications
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-lxsession-default-apps.desktop
+Приложения по умолчанию для LXSession
+Выбор приложений LXDE по умолчанию
+xfwm4
+
+7
+
+lxsession-default-apps
+0
+-15
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-xfce-workspaces-settings.desktop
+Рабочие места
+Настроить  поведение окон и комбинаций клавиш
+xfce4-workspaces
+
+7
+
+xfwm4-workspace-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-backdrop-settings.desktop
+Рабочий стол
+Задание фона рабочего стола и изменение настроек меню и значков
+preferences-desktop-wallpaper
+
+7
+
+xfdesktop-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce4-settings-editor.desktop
+Редактор настроек
+Графический редактор настроек для Xfconf
+preferences-system
+
+7
+
+xfce4-settings-editor
+0
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog
+
+-xfce4-mime-settings.desktop
+Редактор типов MIME
+Связывает приложения с типами MIME
+application-x-executable
+
+7
+
+xfce4-mime-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-xfce-session-settings.desktop
+Сеансы и запуск
+Настройте параметры запуска рабочего стола и заставки
+xfce4-session
+
+7
+
+xfce4-session-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-xfce4-accessibility-settings.desktop
+Специальные возможности
+Настройка специальный вожможностей клавиатуры и мыши
+preferences-desktop-accessibility
+
+7
+
+xfce4-accessibility-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-thunar-volman-settings.desktop
+Съемные устройства и носители данных
+Настроить управление томами
+drive-removable-media
+
+7
+
+thunar-volman-settings
+2
+0
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-thunar-settings.desktop
+Файловый менеджер
+Настроить файловый менеджер Thunar
+system-file-manager
+
+7
+
+thunar-settings
+2
+0
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xscreensaver-properties.desktop
+Хранитель экрана
+Change screensaver properties
+xscreensaver
+
+7
+
+xscreensaver-demo
+0
+0
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+
+

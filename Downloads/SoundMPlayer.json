@@ -1,0 +1,18 @@
+{
+    "param": {
+        "name": {
+            "value": "Sound",
+            "description": ""
+        },
+        "parent": {
+            "value": "Sound"
+        },
+        "buject": {
+            "value": "SoundMPlayer"
+        },
+        "path": {
+            "value": "lib/mplayer/mplayer",
+            "description": "Путь до mplayer"
+        }
+    }
+}

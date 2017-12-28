@@ -1,0 +1,36 @@
+{
+    "param": {
+        "name": {
+            "value": "Motor",
+            "description": ""
+        },
+        "parent": {
+            "value": "Buject"
+        },
+        "buject": {
+            "value": "Motor"
+        }
+    },
+    "status": {
+        "power": {
+            "value" : 0,
+            "description": "The current power of the motor as a percentage"
+        },
+        "direction": {
+            "value" : 0,
+            "description": "The current direction 1 - forward, 0 - stop, -1 - backward"
+        }
+    },
+    "incoming_request": {
+        "set_power": {
+            "name": "set_power",
+            "description": "установка мощности мотора",
+            "param": {
+                "value": {
+                    "description": "мощность мотора в процентах",
+                    "type": "int"
+                }
+            }
+        }
+    }
+}

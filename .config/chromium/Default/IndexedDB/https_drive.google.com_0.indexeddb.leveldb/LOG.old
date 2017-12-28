@@ -1,0 +1,28 @@
+2016/11/09-20:36:35.991 1095 Reusing MANIFEST /home/pi/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2016/11/09-20:36:35.992 1095 Recovering log #63
+2016/11/09-20:36:35.994 1095 Reusing old log /home/pi/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000063.log 
+2016/11/09-20:36:41.260 1095 Current memtable full; waiting...
+2016/11/09-20:36:41.260 1288 Level-0 table #67: started
+2016/11/09-20:36:41.278 1288 Level-0 table #67: 996 bytes OK
+2016/11/09-20:36:41.303 1288 Delete type=0 #63
+2016/11/09-20:36:41.304 1288 Level-0 table #69: started
+2016/11/09-20:36:41.304 1288 Level-0 table #69: 0 bytes OK
+2016/11/09-20:36:41.629 1288 Delete type=0 #66
+2016/11/09-20:36:41.629 1288 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01\x02\x01\x19\x000\x007\x002\x009\x000\x006\x001\x007\x009\x003\x001\x008\x006\x006\x004\x007\x001\x002\x004\x000\x00_\x001\x00_\x00u\x00p' @ 282 : 0
+2016/11/09-20:36:41.629 1288 Compacting 3@0 + 2@1 files
+2016/11/09-20:36:43.339 1288 Generated table #70@0: 10 keys, 4798585 bytes
+2016/11/09-20:36:43.552 1288 Generated table #71@0: 40 keys, 92324 bytes
+2016/11/09-20:36:43.552 1288 Compacted 3@0 + 2@1 files => 4890909 bytes
+2016/11/09-20:36:43.696 1288 compacted to: files[ 0 2 1 0 0 0 0 ]
+2016/11/09-20:36:43.697 1288 Delete type=2 #67
+2016/11/09-20:36:43.698 1288 Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x19\x000\x007\x002\x009\x000\x006\x001\x007\x009\x003\x001\x008\x006\x006\x004\x007\x001\x002\x004\x000\x00_\x001\x00_\x00u\x00p' @ 282 : 0 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2016/11/09-20:37:09.590 1288 Level-0 table #73: started
+2016/11/09-20:37:12.546 1288 Level-0 table #73: 4777332 bytes OK
+2016/11/09-20:37:12.598 1288 Delete type=2 #62
+2016/11/09-20:37:12.601 1288 Delete type=2 #59
+2016/11/09-20:37:12.603 1288 Delete type=0 #68
+2016/11/09-20:37:12.606 1288 Delete type=2 #60
+2016/11/09-20:37:12.607 1288 Delete type=2 #64
+2016/11/09-20:37:39.835 1288 Level-0 table #75: started
+2016/11/09-20:37:42.719 1288 Level-0 table #75: 4685602 bytes OK
+2016/11/09-20:37:42.752 1288 Delete type=0 #72

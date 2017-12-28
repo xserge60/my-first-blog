@@ -1,0 +1,31 @@
+2016/11/14-20:47:31.010 1642 Reusing MANIFEST /home/pi/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2016/11/14-20:47:31.065 1642 Recovering log #74
+2016/11/14-20:47:31.082 1642 Reusing old log /home/pi/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000074.log 
+2016/11/14-20:47:34.308 1642 Current memtable full; waiting...
+2016/11/14-20:47:34.308 2137 Level-0 table #78: started
+2016/11/14-20:47:34.358 2137 Level-0 table #78: 104022 bytes OK
+2016/11/14-20:47:34.411 2137 Delete type=0 #74
+2016/11/14-20:47:34.415 2137 Level-0 table #80: started
+2016/11/14-20:47:34.416 2137 Level-0 table #80: 0 bytes OK
+2016/11/14-20:47:34.476 2137 Delete type=0 #77
+2016/11/14-20:47:34.477 2137 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01\x02\x01\x19\x000\x007\x002\x009\x000\x006\x001\x007\x009\x003\x001\x008\x006\x006\x004\x007\x001\x002\x004\x000\x00_\x001\x00_\x00u\x00p' @ 362 : 0
+2016/11/14-20:47:34.477 2137 Compacting 3@0 + 2@1 files
+2016/11/14-20:47:44.234 2137 Generated table #81@0: 10 keys, 4685375 bytes
+2016/11/14-20:47:55.535 2137 Generated table #82@0: 39 keys, 92529 bytes
+2016/11/14-20:47:55.535 2137 Compacted 3@0 + 2@1 files => 4777904 bytes
+2016/11/14-20:47:56.821 2137 compacted to: files[ 0 2 1 0 0 0 0 ]
+2016/11/14-20:47:56.822 2137 Delete type=2 #75
+2016/11/14-20:47:57.321 2137 Delete type=2 #73
+2016/11/14-20:47:57.322 2137 Delete type=2 #78
+2016/11/14-20:47:57.322 2137 Delete type=2 #70
+2016/11/14-20:47:57.323 2137 Delete type=2 #71
+2016/11/14-20:47:57.323 2137 Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x19\x000\x007\x002\x009\x000\x006\x001\x007\x009\x003\x001\x008\x006\x006\x004\x007\x001\x002\x004\x000\x00_\x001\x00_\x00u\x00p' @ 362 : 0 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2016/11/14-20:48:17.690 2137 Level-0 table #84: started
+2016/11/14-20:48:20.762 2137 Level-0 table #84: 5615635 bytes OK
+2016/11/14-20:48:20.798 2137 Delete type=0 #79
+2016/11/14-20:49:02.703 2137 Level-0 table #86: started
+2016/11/14-20:49:05.526 2137 Level-0 table #86: 5521947 bytes OK
+2016/11/14-20:49:05.563 2137 Delete type=0 #83
+2016/11/14-20:52:36.700 2137 Level-0 table #88: started
+2016/11/14-20:52:37.803 2137 Level-0 table #88: 5522571 bytes OK
+2016/11/14-20:52:37.832 2137 Delete type=0 #85
